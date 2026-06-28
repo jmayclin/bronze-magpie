@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'bodoni-moda';
+    src: url('/fonts/bodoni_moda.ttf') format('truetype');
+    font-display: swap;
+}
+
+body {
+    width: 100%;
+    /* Fills the screen on mobile */
+    max-width: 80ch;
+    /* Prevents text from stretching too wide on desktop (~65 characters wide) */
+    margin: 0 auto;
+    /* Centers the content block on desktop */
+    padding: 0 1rem;
+    /* Adds a little breathing room on the left/right for mobile edges */
+
+    background-color: #FFF4DE;
+    font-family: "bodoni-moda", "Didot", "Bodoni MT", serif;
+}
+
+/* NAV BAR START */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    /* Magic ingredient: Forces every list item to grow equally to fill the horizontal span */
+    flex: 1; 
+    font-size: 1.5em;
+}
+
+ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #ffebc4;
+}
+
+/* NAV BAR END */
+
+
+
+
+h1 {
+    width: 130%;
+    color: black;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-size: 7em;
+    line-height: 1.1;
+    text-align: center;
+
+
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+p {
+    font-optical-sizing: none;
+    color: black;
+    font-size: 1.3em;
+}
