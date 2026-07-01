@@ -24,11 +24,11 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
+    flex: 1;
     justify-content: center;
 }
 
 ul li {
-    /* Magic ingredient: Forces every list item to grow equally to fill the horizontal span */
     flex: 1; 
     font-size: 1.5em;
 }
@@ -37,7 +37,6 @@ ul li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -47,13 +46,8 @@ ul li a:hover {
 
 /* NAV BAR END */
 
-
-
-
 h1 {
     width: 130%;
-    color: black;
-
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -62,18 +56,38 @@ h1 {
     line-height: 1.1;
     text-align: center;
 
-
     margin-top: 0.2em;
     margin-bottom: 0.2em;
 }
 
-img {
+h2 {
+    font-size: 5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+nav {
+    display: flex;
+    align-items: center;       /* Vertically centers the logo and the menu */
+    width: 100%;
+    padding: 14px 16px;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    height: 100%;              /* Matches the natural height of the navbar */
+    padding-right: 24px;       /* Simple, clean breathing room before the links start */
+}
+
+nav a img {
+    height: 3em;             /* Keeps the logo clean and proportional to the text size */
+    width: auto;
     display: block;
-    margin: auto;
 }
 
 p {
     font-optical-sizing: none;
-    color: black;
     font-size: 1.3em;
+    text-align: justify;
 }
