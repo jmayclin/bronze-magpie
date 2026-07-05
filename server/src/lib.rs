@@ -1,4 +1,8 @@
+mod cert;
+mod test_utils;
 use std::{path::PathBuf, str::FromStr};
+
+use cert::CertResolver;
 
 use axum::{
     extract::Path,
@@ -41,7 +45,6 @@ pub async fn server_asset(Path(filename): Path<String>) -> Response {
         None => StatusCode::NOT_FOUND.into_response(),
     }
 }
-
 
 #[cfg(test)]
 mod tests {

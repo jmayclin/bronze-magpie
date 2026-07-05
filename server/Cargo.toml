@@ -5,6 +5,13 @@ edition = "2024"
 publish = false
 
 [dependencies]
+anyhow = "1.0.103"
 axum = "0.8.9"
+instant-acme = "0.8.5"
+rcgen = "0.14.8"
+rustls = "0.23.41"
+rustls-pemfile = "2.2.0"
 tokio = { version = "1.52.3", features = ["macros", "rt-multi-thread"] }
+tracing = "0.1.44"
+tracing-subscriber = "0.3.23"
 website = {path = "../website"}
