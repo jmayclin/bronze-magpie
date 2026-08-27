@@ -70,6 +70,7 @@ impl TestPair {
 mod tests {
     use rustls::RootCertStore;
     use tracing::Level;
+    use tracing_subscriber::EnvFilter;
 
     use crate::cert::CertResolver;
 
@@ -78,9 +79,14 @@ mod tests {
     #[test]
     fn handshakes() {
         // construct a subscriber that prints formatted traces to stdout
+        // tracing_log::LogTracer::init().unwrap();
+        let _ = tracing_log::LogTracer::init();
+
         tracing_subscriber::fmt()
-            .with_max_level(Level::TRACE)
-            .init();
+            .with_env_filter(EnvFilter::new("trace,rustls=trace"))
+            .with_test_writer()
+            .try_init();
+        tracing::info!("DO I SEE THIS?");
 
         let cert_resolver = CertResolver::new();
         let root = cert_resolver

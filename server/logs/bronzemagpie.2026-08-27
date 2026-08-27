@@ -1,0 +1,165 @@
+2026-08-27T02:31:58.964869Z  INFO bronze_magpie::cert: no cert found in cache, creating self signed cert
+2026-08-27T02:31:58.971598Z  INFO rcgen::key_pair: getting public key data for SigningKey { .. }
+2026-08-27T02:31:58.971633Z  INFO rcgen::key_pair: encoded length : 65
+2026-08-27T02:31:58.971659Z  INFO rcgen::key_pair: getting public key data for SigningKey { .. }
+2026-08-27T02:31:58.971674Z  INFO rcgen::key_pair: encoded length : 65
+2026-08-27T02:31:58.971710Z  INFO rcgen::key_pair: getting public key data for SigningKey { .. }
+2026-08-27T02:31:58.971724Z  INFO rcgen::key_pair: encoded length : 65
+2026-08-27T02:31:58.971744Z DEBUG rcgen::key_pair: signing der of length 271: [48, 130, 1, 11, 160, 3, 2, 1, 2, 2, 20, 67, 177, 209, 95, 98, 106, 90, 205, 196, 154, 250, 121, 27, 184, 188, 29, 61, 238, 152, 207, 48, 10, 6, 8, 42, 134, 72, 206, 61, 4, 3, 2, 48, 33, 49, 31, 48, 29, 6, 3, 85, 4, 3, 12, 22, 114, 99, 103, 101, 110, 32, 115, 101, 108, 102, 32, 115, 105, 103, 110, 101, 100, 32, 99, 101, 114, 116, 48, 32, 23, 13, 55, 53, 48, 49, 48, 49, 48, 48, 48, 48, 48, 48, 90, 24, 15, 52, 48, 57, 54, 48, 49, 48, 49, 48, 48, 48, 48, 48, 48, 90, 48, 33, 49, 31, 48, 29, 6, 3, 85, 4, 3, 12, 22, 114, 99, 103, 101, 110, 32, 115, 101, 108, 102, 32, 115, 105, 103, 110, 101, 100, 32, 99, 101, 114, 116, 48, 89, 48, 19, 6, 7, 42, 134, 72, 206, 61, 2, 1, 6, 8, 42, 134, 72, 206, 61, 3, 1, 7, 3, 66, 0, 4, 103, 99, 155, 171, 120, 221, 25, 239, 9, 229, 113, 37, 154, 222, 156, 37, 157, 189, 94, 88, 247, 26, 175, 210, 172, 111, 220, 84, 92, 73, 172, 116, 104, 79, 191, 97, 56, 142, 110, 170, 200, 229, 140, 61, 119, 226, 15, 12, 255, 251, 241, 37, 149, 242, 220, 248, 214, 58, 155, 174, 26, 0, 70, 68, 163, 31, 48, 29, 48, 27, 6, 3, 85, 29, 17, 4, 20, 48, 18, 130, 16, 98, 114, 111, 110, 122, 101, 109, 97, 103, 112, 105, 101, 46, 99, 111, 109]
+2026-08-27T02:31:58.971792Z DEBUG rcgen::ring_like: message length was 271
+2026-08-27T02:31:58.971795Z  INFO rcgen::ring_like: doing 256
+2026-08-27T02:31:58.972623Z  INFO rcgen::ring_like: serialized signature was 72
+2026-08-27T02:31:58.972628Z  INFO rcgen::ring_like: signature was of len 72
+2026-08-27T02:39:18.952599Z DEBUG rustls::server::hs: decided upon suite TLS13_AES_128_GCM_SHA256
+2026-08-27T02:39:18.964339Z ERROR bronze_magpie::tls: received fatal alert: BadCertificate
+2026-08-27T02:39:33.462244Z DEBUG rustls::server::hs: decided upon suite TLS13_AES_128_GCM_SHA256
+2026-08-27T02:39:33.472851Z  INFO bronze_magpie::tls: accepted tcp connection from 127.0.0.1:58382
+2026-08-27T02:39:33.474163Z DEBUG website: /Users/jmayclin/workspace/bronze-magpie/website/../assets/index.html
+2026-08-27T02:39:33.490383Z DEBUG bronze_magpie: retrieve server asset for styles.css
+2026-08-27T02:39:33.490419Z DEBUG website: /Users/jmayclin/workspace/bronze-magpie/website/../assets/styles.css
+2026-08-27T02:39:33.501362Z DEBUG bronze_magpie: retrieve server asset for logo.svg
+2026-08-27T02:39:33.501393Z DEBUG website: /Users/jmayclin/workspace/bronze-magpie/website/../assets/logo.svg
+2026-08-27T02:39:33.504468Z DEBUG rustls::server::hs: decided upon suite TLS13_AES_128_GCM_SHA256
+2026-08-27T02:39:33.508417Z  INFO bronze_magpie::tls: accepted tcp connection from 127.0.0.1:58383
+2026-08-27T02:39:33.508632Z DEBUG bronze_magpie: retrieve server asset for fonts/bodoni_moda.ttf
+2026-08-27T02:39:33.508651Z DEBUG website: /Users/jmayclin/workspace/bronze-magpie/website/../assets/fonts/bodoni_moda.ttf
+2026-08-27T02:39:33.548881Z DEBUG bronze_magpie: retrieve server asset for favicon.ico
+2026-08-27T02:39:33.548908Z DEBUG website: /Users/jmayclin/workspace/bronze-magpie/website/../assets/favicon.ico
+2026-08-27T02:39:35.742993Z DEBUG website: /Users/jmayclin/workspace/bronze-magpie/website/../assets/projects/index.html
+2026-08-27T02:39:35.768245Z DEBUG bronze_magpie: retrieve server asset for styles.css
+2026-08-27T02:39:35.768274Z DEBUG website: /Users/jmayclin/workspace/bronze-magpie/website/../assets/styles.css
+2026-08-27T02:39:35.771282Z DEBUG bronze_magpie: retrieve server asset for logo.svg
+2026-08-27T02:39:35.771307Z DEBUG website: /Users/jmayclin/workspace/bronze-magpie/website/../assets/logo.svg
+2026-08-27T02:39:36.692003Z DEBUG bronze_magpie: retrieve server asset for projects/journals/
+2026-08-27T02:39:36.692070Z DEBUG website: /Users/jmayclin/workspace/bronze-magpie/website/../assets/projects/journals/
+2026-08-27T02:39:41.596599Z DEBUG bronze_magpie: retrieve server asset for projects/about/
+2026-08-27T02:39:41.596678Z DEBUG website: /Users/jmayclin/workspace/bronze-magpie/website/../assets/projects/about/
+2026-08-27T02:39:44.838822Z DEBUG bronze_magpie: retrieve server asset for projects/projects/
+2026-08-27T02:39:44.838893Z DEBUG website: /Users/jmayclin/workspace/bronze-magpie/website/../assets/projects/projects/
+2026-08-27T02:41:29.291409Z DEBUG rustls::common_state: Sending warning alert CloseNotify
+2026-08-27T02:41:40.298878Z DEBUG rustls::common_state: Sending warning alert CloseNotify
+2026-08-27T04:27:55.257221Z  INFO bronze_magpie::cert: no cert found in cache, creating self signed cert
+2026-08-27T04:27:55.268582Z  INFO rcgen::key_pair: getting public key data for SigningKey { .. }
+2026-08-27T04:27:55.268641Z  INFO rcgen::key_pair: encoded length : 65
+2026-08-27T04:27:55.268682Z  INFO rcgen::key_pair: getting public key data for SigningKey { .. }
+2026-08-27T04:27:55.268704Z  INFO rcgen::key_pair: encoded length : 65
+2026-08-27T04:27:55.268767Z  INFO rcgen::key_pair: getting public key data for SigningKey { .. }
+2026-08-27T04:27:55.268790Z  INFO rcgen::key_pair: encoded length : 65
+2026-08-27T04:27:55.268819Z DEBUG rcgen::key_pair: signing der of length 271: [48, 130, 1, 11, 160, 3, 2, 1, 2, 2, 20, 127, 134, 102, 182, 203, 184, 233, 8, 31, 14, 124, 10, 212, 84, 132, 205, 170, 125, 7, 63, 48, 10, 6, 8, 42, 134, 72, 206, 61, 4, 3, 2, 48, 33, 49, 31, 48, 29, 6, 3, 85, 4, 3, 12, 22, 114, 99, 103, 101, 110, 32, 115, 101, 108, 102, 32, 115, 105, 103, 110, 101, 100, 32, 99, 101, 114, 116, 48, 32, 23, 13, 55, 53, 48, 49, 48, 49, 48, 48, 48, 48, 48, 48, 90, 24, 15, 52, 48, 57, 54, 48, 49, 48, 49, 48, 48, 48, 48, 48, 48, 90, 48, 33, 49, 31, 48, 29, 6, 3, 85, 4, 3, 12, 22, 114, 99, 103, 101, 110, 32, 115, 101, 108, 102, 32, 115, 105, 103, 110, 101, 100, 32, 99, 101, 114, 116, 48, 89, 48, 19, 6, 7, 42, 134, 72, 206, 61, 2, 1, 6, 8, 42, 134, 72, 206, 61, 3, 1, 7, 3, 66, 0, 4, 65, 26, 183, 135, 143, 171, 239, 116, 223, 188, 194, 67, 59, 198, 50, 163, 14, 158, 104, 104, 43, 247, 104, 201, 111, 105, 174, 145, 82, 31, 63, 14, 15, 118, 191, 38, 180, 70, 227, 58, 171, 17, 182, 161, 150, 137, 215, 134, 17, 247, 111, 107, 125, 175, 188, 181, 149, 19, 80, 166, 38, 192, 228, 49, 163, 31, 48, 29, 48, 27, 6, 3, 85, 29, 17, 4, 20, 48, 18, 130, 16, 98, 114, 111, 110, 122, 101, 109, 97, 103, 112, 105, 101, 46, 99, 111, 109]
+2026-08-27T04:27:55.268870Z DEBUG rcgen::ring_like: message length was 271
+2026-08-27T04:27:55.268874Z  INFO rcgen::ring_like: doing 256
+2026-08-27T04:27:55.270422Z  INFO rcgen::ring_like: serialized signature was 71
+2026-08-27T04:27:55.270430Z  INFO rcgen::ring_like: signature was of len 71
+2026-08-27T04:28:20.010997Z DEBUG rustls::server::hs: decided upon suite TLS13_AES_128_GCM_SHA256
+2026-08-27T04:28:20.022945Z ERROR bronze_magpie::tls: received fatal alert: BadCertificate
+2026-08-27T04:28:24.259856Z DEBUG rustls::server::hs: decided upon suite TLS13_AES_128_GCM_SHA256
+2026-08-27T04:28:24.271131Z  INFO bronze_magpie::tls: accepted tcp connection from 127.0.0.1:59122
+2026-08-27T04:28:24.272392Z DEBUG website: index.html
+2026-08-27T04:28:24.291494Z DEBUG bronze_magpie: retrieve server asset for styles.css
+2026-08-27T04:28:24.291529Z DEBUG website: styles.css
+2026-08-27T04:28:24.295528Z DEBUG bronze_magpie: retrieve server asset for logo.svg
+2026-08-27T04:28:24.295560Z DEBUG website: logo.svg
+2026-08-27T04:28:24.298470Z DEBUG bronze_magpie: retrieve server asset for fonts/bodoni_moda.ttf
+2026-08-27T04:28:24.298500Z DEBUG website: fonts/bodoni_moda.ttf
+2026-08-27T04:28:24.334635Z DEBUG rustls::server::hs: decided upon suite TLS13_AES_128_GCM_SHA256
+2026-08-27T04:28:24.336288Z DEBUG bronze_magpie: retrieve server asset for favicon.ico
+2026-08-27T04:28:24.336305Z DEBUG website: favicon.ico
+2026-08-27T04:28:24.336338Z  INFO bronze_magpie::tls: accepted tcp connection from 127.0.0.1:59123
+2026-08-27T04:28:29.423290Z DEBUG rustls::common_state: Sending warning alert CloseNotify
+2026-08-27T04:28:50.654002Z DEBUG bronze_magpie: retrieve server asset for journals/
+2026-08-27T04:28:50.654079Z DEBUG website: journals/
+2026-08-27T04:28:53.301058Z DEBUG website: projects/index.html
+2026-08-27T04:28:53.325382Z DEBUG bronze_magpie: retrieve server asset for styles.css
+2026-08-27T04:28:53.325429Z DEBUG website: styles.css
+2026-08-27T04:28:53.326680Z DEBUG bronze_magpie: retrieve server asset for logo.svg
+2026-08-27T04:28:53.326699Z DEBUG website: logo.svg
+2026-08-27T04:28:53.330018Z DEBUG rustls::server::hs: decided upon suite TLS13_AES_128_GCM_SHA256
+2026-08-27T04:28:53.333571Z  INFO bronze_magpie::tls: accepted tcp connection from 127.0.0.1:59127
+2026-08-27T04:28:56.296398Z DEBUG bronze_magpie: retrieve server asset for about/
+2026-08-27T04:28:56.296490Z DEBUG website: about/
+2026-08-27T04:28:58.359818Z DEBUG rustls::common_state: Sending warning alert CloseNotify
+2026-08-27T05:14:13.614906Z  INFO bronze_magpie::cert: no cert found in cache, creating self signed cert
+2026-08-27T05:14:13.627636Z  INFO rcgen::key_pair: getting public key data for SigningKey { .. }
+2026-08-27T05:14:13.627690Z  INFO rcgen::key_pair: encoded length : 65
+2026-08-27T05:14:13.627731Z  INFO rcgen::key_pair: getting public key data for SigningKey { .. }
+2026-08-27T05:14:13.627753Z  INFO rcgen::key_pair: encoded length : 65
+2026-08-27T05:14:13.627814Z  INFO rcgen::key_pair: getting public key data for SigningKey { .. }
+2026-08-27T05:14:13.627836Z  INFO rcgen::key_pair: encoded length : 65
+2026-08-27T05:14:13.627882Z DEBUG rcgen::key_pair: signing der of length 271: [48, 130, 1, 11, 160, 3, 2, 1, 2, 2, 20, 82, 73, 250, 168, 154, 31, 55, 76, 50, 131, 91, 246, 188, 230, 240, 13, 249, 222, 244, 211, 48, 10, 6, 8, 42, 134, 72, 206, 61, 4, 3, 2, 48, 33, 49, 31, 48, 29, 6, 3, 85, 4, 3, 12, 22, 114, 99, 103, 101, 110, 32, 115, 101, 108, 102, 32, 115, 105, 103, 110, 101, 100, 32, 99, 101, 114, 116, 48, 32, 23, 13, 55, 53, 48, 49, 48, 49, 48, 48, 48, 48, 48, 48, 90, 24, 15, 52, 48, 57, 54, 48, 49, 48, 49, 48, 48, 48, 48, 48, 48, 90, 48, 33, 49, 31, 48, 29, 6, 3, 85, 4, 3, 12, 22, 114, 99, 103, 101, 110, 32, 115, 101, 108, 102, 32, 115, 105, 103, 110, 101, 100, 32, 99, 101, 114, 116, 48, 89, 48, 19, 6, 7, 42, 134, 72, 206, 61, 2, 1, 6, 8, 42, 134, 72, 206, 61, 3, 1, 7, 3, 66, 0, 4, 231, 218, 125, 213, 161, 45, 21, 9, 215, 247, 209, 42, 149, 71, 215, 7, 54, 167, 249, 163, 199, 83, 120, 94, 10, 128, 75, 223, 172, 60, 38, 44, 5, 188, 222, 223, 24, 235, 11, 117, 254, 84, 53, 107, 152, 34, 141, 75, 102, 245, 212, 219, 137, 106, 182, 68, 79, 241, 138, 13, 248, 126, 140, 224, 163, 31, 48, 29, 48, 27, 6, 3, 85, 29, 17, 4, 20, 48, 18, 130, 16, 98, 114, 111, 110, 122, 101, 109, 97, 103, 112, 105, 101, 46, 99, 111, 109]
+2026-08-27T05:14:13.627937Z DEBUG rcgen::ring_like: message length was 271
+2026-08-27T05:14:13.627941Z  INFO rcgen::ring_like: doing 256
+2026-08-27T05:14:13.629502Z  INFO rcgen::ring_like: serialized signature was 71
+2026-08-27T05:14:13.629510Z  INFO rcgen::ring_like: signature was of len 71
+2026-08-27T05:14:31.163952Z ERROR bronze_magpie::tls: received corrupt message of type InvalidContentType
+2026-08-27T05:14:31.194604Z ERROR bronze_magpie::tls: received corrupt message of type InvalidContentType
+2026-08-27T05:14:37.272705Z DEBUG rustls::server::hs: decided upon suite TLS13_AES_128_GCM_SHA256
+2026-08-27T05:14:37.283811Z ERROR bronze_magpie::tls: received fatal alert: BadCertificate
+2026-08-27T05:14:37.284338Z DEBUG rustls::server::hs: decided upon suite TLS13_AES_128_GCM_SHA256
+2026-08-27T05:14:37.292671Z ERROR bronze_magpie::tls: received fatal alert: BadCertificate
+2026-08-27T05:14:40.759213Z DEBUG rustls::server::hs: decided upon suite TLS13_AES_128_GCM_SHA256
+2026-08-27T05:14:40.770107Z  INFO bronze_magpie::tls: accepted tcp connection from 127.0.0.1:59384
+2026-08-27T05:14:40.771354Z DEBUG website: index.html
+2026-08-27T05:14:40.771415Z  INFO bronze_magpie: client_addr=unknown user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/
+2026-08-27T05:14:40.788388Z DEBUG bronze_magpie: retrieve server asset for styles.css
+2026-08-27T05:14:40.788427Z DEBUG website: styles.css
+2026-08-27T05:14:40.788452Z  INFO bronze_magpie: client_addr=unknown user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/styles.css
+2026-08-27T05:14:40.791046Z DEBUG bronze_magpie: retrieve server asset for logo.svg
+2026-08-27T05:14:40.791075Z DEBUG website: logo.svg
+2026-08-27T05:14:40.791126Z  INFO bronze_magpie: client_addr=unknown user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/logo.svg
+2026-08-27T05:14:40.795908Z DEBUG bronze_magpie: retrieve server asset for fonts/bodoni_moda.ttf
+2026-08-27T05:14:40.795942Z DEBUG website: fonts/bodoni_moda.ttf
+2026-08-27T05:14:40.795989Z  INFO bronze_magpie: client_addr=unknown user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/fonts/bodoni_moda.ttf
+2026-08-27T05:14:43.165493Z DEBUG website: projects/index.html
+2026-08-27T05:14:43.165617Z  INFO bronze_magpie: client_addr=unknown user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/projects/
+2026-08-27T05:14:43.196601Z DEBUG bronze_magpie: retrieve server asset for styles.css
+2026-08-27T05:14:43.196633Z DEBUG website: styles.css
+2026-08-27T05:14:43.196656Z  INFO bronze_magpie: client_addr=unknown user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/styles.css
+2026-08-27T05:14:43.202543Z DEBUG bronze_magpie: retrieve server asset for logo.svg
+2026-08-27T05:14:43.202578Z DEBUG website: logo.svg
+2026-08-27T05:14:43.202597Z  INFO bronze_magpie: client_addr=unknown user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/logo.svg
+2026-08-27T05:16:38.591708Z DEBUG rustls::common_state: Sending warning alert CloseNotify
+2026-08-27T05:28:36.803509Z  INFO bronze_magpie::cert: no cert found in cache, creating self signed cert
+2026-08-27T05:28:36.815098Z  INFO rcgen::key_pair: getting public key data for SigningKey { .. }
+2026-08-27T05:28:36.815155Z  INFO rcgen::key_pair: encoded length : 65
+2026-08-27T05:28:36.815197Z  INFO rcgen::key_pair: getting public key data for SigningKey { .. }
+2026-08-27T05:28:36.815219Z  INFO rcgen::key_pair: encoded length : 65
+2026-08-27T05:28:36.815294Z  INFO rcgen::key_pair: getting public key data for SigningKey { .. }
+2026-08-27T05:28:36.815316Z  INFO rcgen::key_pair: encoded length : 65
+2026-08-27T05:28:36.815348Z DEBUG rcgen::key_pair: signing der of length 271: [48, 130, 1, 11, 160, 3, 2, 1, 2, 2, 20, 30, 22, 121, 143, 189, 3, 99, 165, 89, 71, 251, 183, 67, 148, 45, 210, 138, 188, 252, 147, 48, 10, 6, 8, 42, 134, 72, 206, 61, 4, 3, 2, 48, 33, 49, 31, 48, 29, 6, 3, 85, 4, 3, 12, 22, 114, 99, 103, 101, 110, 32, 115, 101, 108, 102, 32, 115, 105, 103, 110, 101, 100, 32, 99, 101, 114, 116, 48, 32, 23, 13, 55, 53, 48, 49, 48, 49, 48, 48, 48, 48, 48, 48, 90, 24, 15, 52, 48, 57, 54, 48, 49, 48, 49, 48, 48, 48, 48, 48, 48, 90, 48, 33, 49, 31, 48, 29, 6, 3, 85, 4, 3, 12, 22, 114, 99, 103, 101, 110, 32, 115, 101, 108, 102, 32, 115, 105, 103, 110, 101, 100, 32, 99, 101, 114, 116, 48, 89, 48, 19, 6, 7, 42, 134, 72, 206, 61, 2, 1, 6, 8, 42, 134, 72, 206, 61, 3, 1, 7, 3, 66, 0, 4, 167, 236, 121, 165, 131, 27, 142, 163, 8, 147, 17, 67, 159, 162, 153, 253, 107, 131, 229, 28, 175, 86, 134, 47, 5, 185, 2, 198, 184, 177, 234, 72, 33, 73, 84, 106, 219, 54, 216, 46, 244, 116, 234, 169, 227, 120, 38, 130, 119, 165, 209, 222, 231, 108, 232, 74, 150, 163, 7, 224, 34, 223, 146, 129, 163, 31, 48, 29, 48, 27, 6, 3, 85, 29, 17, 4, 20, 48, 18, 130, 16, 98, 114, 111, 110, 122, 101, 109, 97, 103, 112, 105, 101, 46, 99, 111, 109]
+2026-08-27T05:28:36.815417Z DEBUG rcgen::ring_like: message length was 271
+2026-08-27T05:28:36.815421Z  INFO rcgen::ring_like: doing 256
+2026-08-27T05:28:36.816971Z  INFO rcgen::ring_like: serialized signature was 72
+2026-08-27T05:28:36.816979Z  INFO rcgen::ring_like: signature was of len 72
+2026-08-27T05:28:53.730262Z DEBUG rustls::server::hs: decided upon suite TLS13_AES_128_GCM_SHA256
+2026-08-27T05:28:53.741902Z ERROR bronze_magpie::tls: received fatal alert: BadCertificate
+2026-08-27T05:28:53.742205Z DEBUG rustls::server::hs: decided upon suite TLS13_AES_128_GCM_SHA256
+2026-08-27T05:28:53.750979Z ERROR bronze_magpie::tls: received fatal alert: BadCertificate
+2026-08-27T05:28:57.379652Z DEBUG rustls::server::hs: decided upon suite TLS13_AES_128_GCM_SHA256
+2026-08-27T05:28:57.391274Z  INFO bronze_magpie::tls: accepted tcp connection from 127.0.0.1:59456
+2026-08-27T05:28:57.392313Z DEBUG website: index.html
+2026-08-27T05:28:57.392355Z  INFO bronze_magpie: client_addr=ConnectInfo(TlsConnectionInfo { client_ip: 127.0.0.1, client_port: 59456, tls_version: TLSv1_3, tls_cipher: TLS13_AES_128_GCM_SHA256, tls_group: X25519 }) user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/
+2026-08-27T05:28:57.413632Z DEBUG bronze_magpie: retrieve server asset for styles.css
+2026-08-27T05:28:57.413665Z DEBUG website: styles.css
+2026-08-27T05:28:57.413685Z  INFO bronze_magpie: client_addr=ConnectInfo(TlsConnectionInfo { client_ip: 127.0.0.1, client_port: 59456, tls_version: TLSv1_3, tls_cipher: TLS13_AES_128_GCM_SHA256, tls_group: X25519 }) user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/styles.css
+2026-08-27T05:28:57.415031Z DEBUG bronze_magpie: retrieve server asset for logo.svg
+2026-08-27T05:28:57.415062Z DEBUG website: logo.svg
+2026-08-27T05:28:57.415113Z  INFO bronze_magpie: client_addr=ConnectInfo(TlsConnectionInfo { client_ip: 127.0.0.1, client_port: 59456, tls_version: TLSv1_3, tls_cipher: TLS13_AES_128_GCM_SHA256, tls_group: X25519 }) user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/logo.svg
+2026-08-27T05:28:57.417930Z DEBUG rustls::server::hs: decided upon suite TLS13_AES_128_GCM_SHA256
+2026-08-27T05:28:57.421362Z  INFO bronze_magpie::tls: accepted tcp connection from 127.0.0.1:59457
+2026-08-27T05:29:00.168637Z DEBUG website: projects/index.html
+2026-08-27T05:29:00.168786Z  INFO bronze_magpie: client_addr=ConnectInfo(TlsConnectionInfo { client_ip: 127.0.0.1, client_port: 59456, tls_version: TLSv1_3, tls_cipher: TLS13_AES_128_GCM_SHA256, tls_group: X25519 }) user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/projects/
+2026-08-27T05:29:00.193516Z DEBUG bronze_magpie: retrieve server asset for styles.css
+2026-08-27T05:29:00.193545Z DEBUG website: styles.css
+2026-08-27T05:29:00.193563Z  INFO bronze_magpie: client_addr=ConnectInfo(TlsConnectionInfo { client_ip: 127.0.0.1, client_port: 59456, tls_version: TLSv1_3, tls_cipher: TLS13_AES_128_GCM_SHA256, tls_group: X25519 }) user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/styles.css
+2026-08-27T05:29:00.195321Z DEBUG bronze_magpie: retrieve server asset for logo.svg
+2026-08-27T05:29:00.195348Z DEBUG website: logo.svg
+2026-08-27T05:29:00.195368Z  INFO bronze_magpie: client_addr=ConnectInfo(TlsConnectionInfo { client_ip: 127.0.0.1, client_port: 59456, tls_version: TLSv1_3, tls_cipher: TLS13_AES_128_GCM_SHA256, tls_group: X25519 }) user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/logo.svg
+2026-08-27T05:29:01.062157Z DEBUG website: index.html
+2026-08-27T05:29:01.062259Z  INFO bronze_magpie: client_addr=ConnectInfo(TlsConnectionInfo { client_ip: 127.0.0.1, client_port: 59456, tls_version: TLSv1_3, tls_cipher: TLS13_AES_128_GCM_SHA256, tls_group: X25519 }) user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/
+2026-08-27T05:29:01.089418Z DEBUG bronze_magpie: retrieve server asset for styles.css
+2026-08-27T05:29:01.089451Z DEBUG website: styles.css
+2026-08-27T05:29:01.089475Z  INFO bronze_magpie: client_addr=ConnectInfo(TlsConnectionInfo { client_ip: 127.0.0.1, client_port: 59456, tls_version: TLSv1_3, tls_cipher: TLS13_AES_128_GCM_SHA256, tls_group: X25519 }) user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/styles.css
+2026-08-27T05:29:01.091026Z DEBUG bronze_magpie: retrieve server asset for logo.svg
+2026-08-27T05:29:01.091052Z DEBUG website: logo.svg
+2026-08-27T05:29:01.091070Z  INFO bronze_magpie: client_addr=ConnectInfo(TlsConnectionInfo { client_ip: 127.0.0.1, client_port: 59456, tls_version: TLSv1_3, tls_cipher: TLS13_AES_128_GCM_SHA256, tls_group: X25519 }) user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0 uri=/logo.svg
+2026-08-27T05:29:03.110627Z DEBUG rustls::common_state: Sending warning alert CloseNotify

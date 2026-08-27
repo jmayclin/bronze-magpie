@@ -1,7 +1,7 @@
 mod cert;
 mod test_utils;
 use std::{path::PathBuf, str::FromStr};
-
+pub mod tls;
 use cert::CertResolver;
 
 use axum::{
@@ -27,7 +27,7 @@ fn content_type(extension: &str) -> &'static str {
 }
 
 pub async fn server_asset(Path(filename): Path<String>) -> Response {
-    println!("retrieve server asset for {filename}");
+    tracing::debug!("retrieve server asset for {filename}");
     // TODO: This should handle HTTP 404's separately from
     // all of the other 404s (e.g. missing assets)
     match website::asset(&filename) {

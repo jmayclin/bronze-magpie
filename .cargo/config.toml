@@ -1,0 +1,6 @@
+[target.aarch64-unknown-linux-musl]
+linker = "/opt/homebrew/opt/llvm/bin/clang"
+rustflags = [
+    "-C", "link-arg=-fuse-ld=lld",
+    "-C", "link-arg=--target=aarch64-unknown-linux-musl",
+]
